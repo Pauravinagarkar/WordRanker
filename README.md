@@ -24,12 +24,19 @@ This repository contains an implementation to determine the top K most frequentl
 #### Producer
 To run `producer.py`:
 ```bash
-python producer.py
+      python producer.py
+```
 
 #### Consumer
-To run `consumer.py`:
 ```bash
 python consumer.py
+spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.2 {PATH_TO_YOUR_FILE}
+```
+
+
+
+
+
 
 
 
